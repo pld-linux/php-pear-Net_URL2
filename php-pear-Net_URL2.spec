@@ -5,7 +5,7 @@
 %define		_pearname	Net_URL2
 
 Summary:	%{_pearname} - easy parsing of URLs
-Summary(pl.UTF-8):	%{_pearname} - proste parsowanie adresów
+Summary(pl.UTF-8):	%{_pearname} - prosta analiza adresów URL
 Name:		php-pear-%{_pearname}
 Version:	0.1.0
 Release:	2
@@ -26,7 +26,7 @@ Provides easy parsing of URLs and their constituent parts.
 In PEAR status of this package is: %{_status}.
 
 %description -l pl
-Pozwala na proste parsowanie adresów URL oraz ich części.
+Ta klasa pozwala na prostą analizę adresów URL oraz ich części.
 
 Ta klasa ma w PEAR status: %{_status}.
 
