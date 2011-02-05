@@ -26,7 +26,7 @@ Provides easy parsing of URLs and their constituent parts.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
+%description -l pl.UTF-8
 Ta klasa pozwala na prostą analizę adresów URL oraz ich części.
 
 Ta klasa ma w PEAR status: %{_status}.
