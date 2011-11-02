@@ -1,18 +1,15 @@
-%include	/usr/lib/rpm/macros.php
-%define		_class		Net
-%define		_subclass	URL2
-%define		_status		beta
+%define		_status		stable
 %define		_pearname	Net_URL2
-
+%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - easy parsing of URLs
 Summary(pl.UTF-8):	%{_pearname} - prosta analiza adresów URL
 Name:		php-pear-%{_pearname}
-Version:	0.3.1
+Version:	2.0.0
 Release:	1
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	c3d3ffacf7ba255bbb98681dc4c44cb6
+# Source0-md5:	4ec4d47bc517b6b9caa7f2dd753d6424
 URL:		http://pear.php.net/package/Net_URL2/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
