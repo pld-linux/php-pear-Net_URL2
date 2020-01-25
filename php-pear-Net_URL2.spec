@@ -1,6 +1,5 @@
 %define		_status		stable
 %define		_pearname	Net_URL2
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - easy parsing of URLs
 Summary(pl.UTF-8):	%{_pearname} - prosta analiza adresów URL
 Name:		php-pear-%{_pearname}
